@@ -1,0 +1,103 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #3e4a61;
+    color:#d9dad7;
+
+}
+
+header{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    border:1px solid;
+    border-radius:5px;
+    margin-left:400px;
+    margin-right:400px;
+
+}
+
+.project{
+    border:3px solid black;
+    border-radius:5px;
+    padding-bottom:15px;
+    line-height:27px;
+    font-size: 25px;
+}
+
+
+.nav{
+    text-decoration: underline;
+    font-style: italic;
+    display: inline;
+}
+
+.home,.hoggs, .shop, .page3, .contact{
+    text-align: center;
+    padding:0%;
+    
+}
+
+a:visited{
+    text-decoration: none;
+    color:#d9dad7
+}
+
+a:link{
+    color:#1a2639;
+}
+
+a::before{
+    text-decoration:none;
+    color:#d9dad7
+
+}
+
+
+a:hover{
+    color:#3e4a61;
+    text-decoration:wavy;
+
+}
+
+h2{
+    text-decoration: underline;
+    font-style: italic;
+    font-family: cursive !important;
+    letter-spacing: 2px;
+    text-align: center;
+    border:3px solid black;
+    border-radius:5px;
+    margin-right:400px;
+    margin-left:400px;
+    padding:5px;
+
+
+}
+
+p{
+    font-size: 20px;
+    line-height: 20px;
+    text-indent: 8px;
+    letter-spacing: 1px;
+    margin-right:50px;
+    margin-left:15px;
+    border:3px solid black;
+    border-radius:5px;
+    padding:5px;
+    
+}
+
+.br{
+   display: block;
+   margin-bottom:3px;
+   line-height:5px;
+}
+
+p,h1,h2,.project,header{
+    background-color: #c24d2c ;
+    border-color:#1a2639 ;
+
+}
